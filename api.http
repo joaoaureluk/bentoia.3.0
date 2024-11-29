@@ -1,0 +1,37 @@
+POST http://localhost:3005/user
+Content-Type: application/json
+
+{
+    "name": "july bruno",
+    "email": "july@gmail.com",
+    "password": "julybruno"
+}
+
+###
+
+GET http://localhost:3005/user/1
+
+###
+
+POST http://localhost:3005/auth
+Content-Type: application/json
+
+{
+    "email": "mu@gmail.com",
+    "password": "123456789"
+}
+
+###
+
+POST http://localhost:3005/ia
+Content-Type: application/json
+
+{
+    "prompt": "como é feito um buraco negro?",
+    "name": "gustavo"
+}
+
+
+###
+
+GET https://brasilapi.com.br/api/cnpj/v1/54682139000191
